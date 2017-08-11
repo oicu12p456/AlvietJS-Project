@@ -71,8 +71,34 @@ End TABLE OF CONTENT
   margin-bottom: 30px;
 }
 
-.wpb_column{
+
+/**
+ * Style for Testimonials
+ */
+
+.quote {
+    border-top: 12px solid #E13139;
+    border-left: 12px solid #E13139;
+    border-bottom: 12px solid #E13139;
+    padding: 17%;
+    position: relative;
+    width: 20%;
 }
+
+.home_quote {
+    float: right;
+    margin: 8px 32px;
+}
+
+.right-quote {
+    border-top: 12px solid #E13139;
+    border-right: 12px solid #E13139;
+    border-bottom: 12px solid #E13139;
+    padding: 17%;
+    position: relative;
+    width: 20%;
+}
+
 /*Styles for 3 Levels */
 
 .npt_raw_container .build_level .container_24 .grid_20 .levels ul>:nth-child(1)::before {
@@ -3528,5 +3554,33 @@ p.no-comments{
 }
 
 
+.quote {
+    border-top: 12px solid #E13139;
+    border-left: 12px solid #E13139;
+    border-bottom: 12px solid #E13139;
+    position: relative;
+    width: 20%;
+}
+.quote i{
+  font-style: normal;
+    font-family: 'FontAwesome';
+    color: #787878;
+    font-size: 55px;
+    position: relative;
+    top: 56px;
+}
 
+.home_quote {
+    float: right;
+    margin: 8px 32px;
+}
+
+.right-quote {
+    border-top: 12px solid #E13139;
+    border-right: 12px solid #E13139;
+    border-bottom: 12px solid #E13139;
+    padding: 17%;
+    position: relative;
+    width: 20%;
+}
 
