@@ -55,12 +55,20 @@ $classes = ( !$layout || $layout == 'full' || digitalmedia_set($_GET, 'layout_st
 
 									<div class="col-xs-10">
 										<?php the_content();?>
+                                        <p style="float: right; clear: both;"><?php the_title(); ?></p>
+                                        <p style="float: right; clear: both;"><?php the_post_thumbnail(); ?></p>
+                                        <p style="float: right; clear: both;"><?php gs_t_populate_columns('gs_t_client_company'); ?></p>
+                                        <p style="float: right; clear: both;"><?php gs_t_populate_columns('gs_t_client_design'); ?></p>
 									</div>
 								</div>
 							<?php else: ?>
 								<div class="row">
 									<div class="col-xs-10">
 										<?php the_content();?>
+										<p style="float: left; clear: both;"><?php the_title(); ?></p>
+                                        <p style="float: left; clear: both;"><?php the_post_thumbnail(); ?></p>
+                                        <p style="float: left; clear: both;"><?php gs_t_populate_columns('gs_t_client_company'); ?></p>
+                                        <p style="float: left; clear: both;"><?php gs_t_populate_columns('gs_t_client_design'); ?></p>
 									</div>
 									<div class="col-xs-2">
 										<div class="wrapper right-quote home_quote">
